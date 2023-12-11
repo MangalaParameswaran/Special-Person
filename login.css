@@ -16,12 +16,10 @@ background-image: url("https://img.freepik.com/premium-vector/vector-illustratio
     color: #0d6efd !important;
 }
 .logo{
-    height: 40px;
     width: 40px;
-    border-radius: 15px;
     margin-top: -8px !important;
-    box-shadow: -5px -5px 10px white,
-    5px 5px 10px white;
+    box-shadow: -3px -3px 10px gray,
+    3px 3px 10px grey;
 
 }
 .logo:hover{
@@ -50,7 +48,12 @@ background-image: url("https://img.freepik.com/premium-vector/vector-illustratio
     color:#0d6efd !important;
     cursor: pointer !important;
 }
-
+/* .input-group.success input{
+    border-color: #198754;
+}
+.input-group.error input{
+    border-color: red;
+} */
 
 
 
