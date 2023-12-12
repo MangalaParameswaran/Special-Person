@@ -22,6 +22,15 @@ background-image: url("https://img.freepik.com/premium-vector/vector-illustratio
     3px 3px 10px grey;
 
 }
+ @media (max-width: 321px) {
+
+    .mem-log{
+       
+        font-size: 5px !important;
+    }
+   
+} 
+
 .logo:hover{
     box-shadow: -5px -5px 10px #0d6efd,
     5px 5px 10px #0d6efd;
@@ -43,6 +52,7 @@ background-image: url("https://img.freepik.com/premium-vector/vector-illustratio
   }
 .mem-log{
     color: gray !important;
+    /* font-size: 2em !important; */
 }
 .mem-log:hover{
     color:#0d6efd !important;

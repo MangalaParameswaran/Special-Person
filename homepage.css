@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kanit !important;
+    color: white !important;
+}
+.navbar .nv-brand{
+    font-size: 1.3em !important;
+    /* color: #29f700 !important; */
+}
+.nv-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 2em;
+
+}
+.nv-tog{
+    color: white !important;
+}
+.nv-brand:hover{
+    color: #31355b !important;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 5px 5px 15px black;
+    padding: .8rem .7rem;
+    background-color: black;
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent !important;
+    color:#31355b !important;
+    font-size: larger !important;
+    font-weight: bold !important;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 3px solid #31355b !important;
+    color: white !important;
+    font-weight: bold;
+    /* font-size: larger; */
+}
+.bt-search:hover{
+    outline: #31355b !important;
+    background-color: #31355b !important;
+}
+#home{
+    background-image: url(./images/333333.jpg);
+    min-height: 100vh;
+    width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    color: black !important;
+    font-size: 100px;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 3px #ccc,
+    1px 1px 3px #ccc;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
